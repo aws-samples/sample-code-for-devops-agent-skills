@@ -1,0 +1,32 @@
+# Only allow file extensions supported by AWS DevOps Agent skill uploads
+# Ignore all files by default
+*
+
+# Disallowed directories
+scripts/
+.claude/
+
+# Allow directories (needed for recursion)
+!*/
+
+# Allow .gitignore itself
+!.gitignore
+
+# Allowed extensions
+!*.md
+!*.txt
+!*.json
+!*.yaml
+!*.yml
+!*.xml
+!*.csv
+!*.tsv
+!*.html
+!*.htm
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+!*.webp
+!*.pdf

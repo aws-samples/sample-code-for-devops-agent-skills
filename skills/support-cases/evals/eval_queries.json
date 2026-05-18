@@ -1,0 +1,50 @@
+[
+  {
+    "query": "Investigate the Lambda errors and check if there are any related support cases",
+    "should_trigger": true
+  },
+  {
+    "query": "The CloudWatch alarm triggered for RDS high CPU. Were there any past support cases with similar database performance issues?",
+    "should_trigger": true
+  },
+  {
+    "query": "I'm seeing 5xx errors on our ALB. Check if AWS Support has any open cases or past incidents related to this",
+    "should_trigger": true
+  },
+  {
+    "query": "This ECS service keeps crashing. Has anyone filed a support case about this before?",
+    "should_trigger": true
+  },
+  {
+    "query": "We're getting throttling errors on DynamoDB. Look at historical support cases to see if this is a recurring issue",
+    "should_trigger": true
+  },
+  {
+    "query": "Review past support tickets for connection timeout issues in this account",
+    "should_trigger": true
+  },
+  {
+    "query": "The deployment failed and the service is degraded. Check if there's an existing support case or similar past incident",
+    "should_trigger": true
+  },
+  {
+    "query": "What Python libraries can I use to parse CloudWatch logs?",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I configure auto-scaling for my ECS service?",
+    "should_trigger": false
+  },
+  {
+    "query": "Explain the difference between Application Load Balancer and Network Load Balancer",
+    "should_trigger": false
+  },
+  {
+    "query": "What are the required resources for a CloudFormation VPC with public and private subnets?",
+    "should_trigger": false
+  },
+  {
+    "query": "What are the best practices for S3 bucket security?",
+    "should_trigger": false
+  }
+]
