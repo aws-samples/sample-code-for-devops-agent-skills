@@ -19,7 +19,7 @@ Each skill lives in its own directory under `skills/`. To use a skill:
    cd sample-code-for-devops-agent-skills
    ```
 2. Browse the skills table above and read the skill's `README.md` for details on its purpose, prerequisites, and sample prompts.
-3. Zip the skill directory (see the zip command in each skill's README) and upload it via the [AWS DevOps Agent Operator Web App](https://docs.aws.amazon.com/devopsagent/latest/userguide/about-aws-devops-agent-devops-agent-skills.html#creating-skills).
+3. Zip the skill directory (see the zip command in each skill's README) and [upload it via the AWS DevOps Agent Operator Web App](https://docs.aws.amazon.com/devopsagent/latest/userguide/about-aws-devops-agent-devops-agent-skills.html#creating-skills). More detailed instructions can be found in each skill's README.md file.
 
 ### Skill directory structure
 
