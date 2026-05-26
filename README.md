@@ -1,6 +1,7 @@
-# AWS DevOps Agent Skill Central
+# DevOps Agent Skills
 
-A central repository for AWS DevOps Agent skills. Each skill is packaged as a sub-directory under `skills/` and includes its definition, reference documentation, and evaluation data.
+A repository for AWS DevOps Agent skills. Each skill is packaged as a sub-directory under `skills/` and includes its definition, reference documentation, and evaluation data.
+The skills are meant to be used either as samples for writing your own skills, or as they are in DevOps Agent. If you intend to use the skills in this repo in DevOps Agent, please first use them in a non-production small environment.
 
 ## Skills
 
