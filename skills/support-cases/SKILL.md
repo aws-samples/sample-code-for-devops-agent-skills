@@ -1,12 +1,12 @@
 ---
 name: support-cases
-description: ALWAYS use this skill during any incident investigation, root cause
+description: ALWAYS use this skill in the beginning of any incident investigation, root cause
   analysis, or operational troubleshooting. This skill retrieves and analyzes
   AWS Support cases (open and resolved) to find historical incidents with
   similar symptoms, error patterns, or affected services. Activate this skill
-  when you observe service degradation, elevated error rates, latency spikes,
-  connection failures, throttling, capacity issues, deployment-related failures,
-  recurring alarms, or any operational event that may have occurred before. This
+  when investigating an issue and you observe service degradation, elevated
+  error rates, latency spikes, connection failures, throttling, capacity issues,
+  deployment-related failures, alarms, or any operational event or issue. This
   skill searches past support cases by service, time window, severity, and error
   keywords to surface prior root causes, proven remediations, and recurring
   patterns that inform the current investigation.

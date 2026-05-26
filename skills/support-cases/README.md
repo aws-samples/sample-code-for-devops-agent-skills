@@ -38,7 +38,7 @@ To deploy this skill to your Agent Space:
 
    ```bash
    cd skills
-   zip -r support-cases.zip support-cases/ -i '*.md' '*.txt' '*.json' '*.yaml' '*.yml' '*.xml' '*.csv' '*.tsv' '*.html' '*.htm' '*.png' '*.jpg' '*.jpeg' '*.gif' '*.svg' '*.webp' '*.pdf' -x '*/.claude/*' '*/scripts/*' '*/README.md' '*/.skilleval.yaml' '*/.skilleval.yml' '*/CHANGELOG.md'
+   zip -r support-cases.zip support-cases/ -i '*.md' '*.txt' '*.json' '*.yaml' '*.yml' '*.xml' '*.csv' '*.tsv' '*.html' '*.htm' '*.png' '*.jpg' '*.jpeg' '*.gif' '*.svg' '*.webp' '*.pdf' -x '*/.claude/*' '*/scripts/*' '*/README.md' '*/.skilleval.yaml' '*/.skilleval.yml' '*/CHANGELOG.md' '*/evals/*'
    ```
 
 2. In the AWS DevOps Agent Operator Web App, navigate to the **Skills** page.
@@ -55,6 +55,7 @@ This skill is most suitable for chat and investigation. Below are sample prompts
 
 ### Chat
 
+- "Create a support cases report for all support cases in the last 12 months, including breakdowns by service and severity"
 - "Show me all support cases opened in the last 30 days for RDS."
 - "What was the resolution for case-123456789010-muen-2024?"
 - "Are there any open critical-severity cases in this account?"
