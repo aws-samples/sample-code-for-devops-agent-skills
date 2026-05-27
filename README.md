@@ -30,9 +30,9 @@ skills/<skill-name>/
 ├── SKILL.md          # Main skill instructions (required)
 ├── README.md         # Documentation, prerequisites, and upload guide
 ├── CHANGELOG.md      # Version history
-├── references/       # Supplementary reference docs (optional)
+├── evals/            # Evaluation queries and benchmarks (required)
 ├── assets/           # Images, diagrams, data files (optional)
-└── evals/            # Evaluation queries and benchmarks (optional)
+└── references/       # Supplementary reference docs (optional)
 ```
 
 The `SKILL.md`, `references/`, and `assets/` directories are what AWS DevOps Agent reads at runtime. Everything else supports development, testing, and documentation.

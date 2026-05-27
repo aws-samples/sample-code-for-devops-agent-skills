@@ -21,7 +21,7 @@ sample-code-for-devops-agent-skills/
 │       ├── README.md         # Skill documentation (purpose, prompts, upload instructions)
 │       ├── CHANGELOG.md      # Version history
 │       ├── .skilleval.yaml   # Evaluation configuration for Agent Skill Eval
-│       ├── evals/            # evaluation queries and benchmarks
+│       ├── evals/            # Required: evaluation queries and benchmarks
 │       ├── assets/           # Optional: images, diagrams, data files
 │       └── references/       # Optional: supplementary reference docs
 ```
