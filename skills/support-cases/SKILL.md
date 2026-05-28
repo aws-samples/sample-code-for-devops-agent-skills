@@ -115,11 +115,9 @@ When reviewing communications, look for:
 2. **Remediation steps** — Specific actions taken to resolve the issue (e.g.,
    "increased max_connections", "applied security group rule", "scaled up
    instance type").
-3. **AWS service events** — References to AWS Health events or service
-   disruptions that may have contributed.
-4. **Configuration recommendations** — Best practices or tuning suggestions
+3. **Configuration recommendations** — Best practices or tuning suggestions
    provided by AWS.
-5. **Escalation notes** — If the case was escalated, check for deeper technical
+4. **Escalation notes** — If the case was escalated, check for deeper technical
    analysis from specialized teams.
 
 ---
@@ -195,8 +193,6 @@ Were relevant historical cases found?
   window) and expand only if no relevant cases are found.
 - **Check resolved cases**: The most valuable information often comes from
   resolved cases where root cause and fix are documented.
-- **Look for AWS Health correlations**: If a past case references an AWS Health
-  event, check if a similar event is active now.
 - **Note case severity patterns**: If past cases for the same issue were filed
   at `critical` severity, the current incident may warrant similar urgency.
 - **Cross-reference with deployments**: If a past case was caused by a
