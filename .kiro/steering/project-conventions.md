@@ -123,7 +123,15 @@ Only these extensions are permitted inside skill directories (enforced by `skill
 4. Add a `CHANGELOG.md` starting at version 1.0.0.
 5. Add evaluation tests (`.skilleval.yaml` and `evals/` directory).
 6. Test the skill with DevOps Agent before submitting.
-7. Update the root `README.md` skills table with the new skill's name, agent types, author, and docs link.
+7. Update the root `README.md` skills table with the new skill's name, description, agent types, author, and docs link.
+8. Update the `llms.txt` file at the repo root — add the new skill to the "Available Skills" section following the existing format: `- [Skill Name](skills/<name>/SKILL.md): One-line description`.
+
+## Maintaining llms.txt
+
+The `llms.txt` file at the repo root provides AI tools with a structured overview of this repository. Keep it in sync:
+
+- **Available Skills section**: Update whenever a skill is added, removed, or renamed (step 8 above).
+- **Repository Structure section**: Update whenever the directory structure conventions change (e.g., new required files, new directories, renamed paths).
 
 ## Zipping for Upload
 

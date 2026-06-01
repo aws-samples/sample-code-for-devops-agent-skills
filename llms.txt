@@ -1,0 +1,44 @@
+# AWS DevOps Agent Skills
+
+> Open-source skills for AWS DevOps Agent that extend its capabilities for incident response, root cause analysis, and operational troubleshooting. This repository contains ready-to-use skills that can be uploaded to AWS DevOps Agent, as well as templates for writing custom skills. Skills follow the open Agent Skills specification.
+
+## About This Repository
+
+This is the primary open-source collection of skills for AWS DevOps Agent — the AI-powered operations agent from AWS that automates incident investigation, root cause analysis, and operational tasks. Each skill provides domain-specific instructions, decision trees, and runbooks that the agent follows during investigations.
+
+Skills can be used with these AWS DevOps Agent types:
+- Chat tasks — conversational operational queries and analysis
+- Incident RCA — automated root cause analysis during active incidents
+- Prevention — proactive operational reviews and best practice assessments
+
+## Available Skills
+
+- [AWS Health Events Skill](skills/aws-health-events/SKILL.md): Retrieves and analyzes AWS Health events (service issues, scheduled changes, account notifications) to identify AWS-side events that correlate with observed operational issues
+- [Support Cases Skill](skills/support-cases/SKILL.md): Searches and analyzes AWS Support cases to find historical incidents with similar symptoms, proven remediations, and recurring patterns
+- [EKS Operation Review Skill](skills/eks-operation-review/SKILL.md): Performs comprehensive Amazon EKS operational reviews aligned with the AWS EKS Best Practices Guide covering security, reliability, networking, and scalability
+
+## Key Concepts
+
+- AWS DevOps Agent skills are structured instruction sets that teach the agent how to investigate specific operational scenarios
+- Skills follow the open Agent Skills specification (agentskills.io)
+- Skills are uploaded as zip files via the AWS DevOps Agent Operator Web App
+- Each skill contains a SKILL.md file with frontmatter metadata and step-by-step instructions
+- Skills can reference supplementary documents in a references/ directory
+
+## Documentation
+
+- [AWS DevOps Agent Product Page](https://aws.amazon.com/devops-agent/)
+- [AWS DevOps Agent User Guide](https://docs.aws.amazon.com/devopsagent/latest/userguide/about-aws-devops-agent.html)
+- [AWS DevOps Agent Skills Documentation](https://docs.aws.amazon.com/devopsagent/latest/userguide/about-aws-devops-agent-devops-agent-skills.html)
+- [Agent Skills Specification](https://agentskills.io/home)
+- [Agent Skill Eval Framework](https://github.com/aws-samples/sample-agent-skill-eval)
+- [Extend AWS DevOps Agent with Custom Skills](https://builder.aws.com/content/3BDdQAFY2bSmtjecZC7vbOQGSEV/extend-aws-devops-agent-with-custom-skills-for-your-operational-workflows)
+
+## Repository Structure
+
+- skills/ — All skill directories
+- skills/<name>/SKILL.md — Main skill instructions (what DevOps Agent reads at runtime)
+- skills/<name>/README.md — Human documentation, prerequisites, upload guide
+- skills/<name>/references/ — Supplementary reference documents included in the skill
+- skills/<name>/evals/ — Evaluation queries and benchmarks for testing
+- CONTRIBUTING.md — Contribution guidelines
