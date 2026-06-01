@@ -16,6 +16,7 @@ Skills can be used with these AWS DevOps Agent types:
 - [AWS Health Events Skill](skills/aws-health-events/SKILL.md): Retrieves and analyzes AWS Health events (service issues, scheduled changes, account notifications) to identify AWS-side events that correlate with observed operational issues
 - [Support Cases Skill](skills/support-cases/SKILL.md): Searches and analyzes AWS Support cases to find historical incidents with similar symptoms, proven remediations, and recurring patterns
 - [EKS Operation Review Skill](skills/eks-operation-review/SKILL.md): Performs comprehensive Amazon EKS operational reviews aligned with the AWS EKS Best Practices Guide covering security, reliability, networking, and scalability
+- [RDS Operation Review Skill](skills/rds-operation-review/SKILL.md): Performs comprehensive Amazon RDS and Aurora operational reviews aligned with the AWS Well-Architected Framework covering security, reliability, performance, cost optimization, and backups
 
 ## Key Concepts
 
