@@ -9,6 +9,8 @@ description: Comprehensive Amazon EKS operational review aligned with the AWS EK
 metadata:
   author: yakiratz-aws
   version: "1.0.0"
+  aws-devops-agent-skills.agent-types: "Chat tasks, Evaluation"
+  aws-devops-agent-skills.aws-services: "Amazon EKS"
 ---
 
 # EKS Operational Review

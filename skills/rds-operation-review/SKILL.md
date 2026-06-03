@@ -7,6 +7,11 @@ description: Comprehensive Amazon RDS and Aurora operational review aligned with
   backups, encryption, or operational readiness. Triggers on requests like "RDS
   review", "Aurora best practices audit", "database operational assessment", "review
   my RDS instance", "RDS health check", or "ORR for RDS".
+metadata:
+  author: yakiratz-aws
+  version: "1.0.0"
+  aws-devops-agent-skills.agent-types: "Chat tasks, Evaluation"
+  aws-devops-agent-skills.aws-services: "Amazon RDS"
 ---
 
 # RDS / Aurora Operational Review

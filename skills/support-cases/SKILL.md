@@ -13,6 +13,8 @@ description: ALWAYS use this skill in the beginning of any incident investigatio
 metadata:
   author: udid-aws
   version: "1.0.0"
+  aws-devops-agent-skills.agent-types: "Chat tasks, Incident RCA"
+  aws-devops-agent-skills.aws-services: "AWS Support"
 ---
 
 # Support Case Review
