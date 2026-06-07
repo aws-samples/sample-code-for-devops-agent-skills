@@ -130,7 +130,7 @@
         "timing": {
           "elapsed_seconds": 20.366231791995233
         },
-        "raw_output": "- **demo-cluster** \u2014 us-east-1 \u2014 872879685372"
+        "raw_output": "- **demo-cluster** \u2014 us-east-1 \u2014 123456789012"
       },
       "delta_pass_rate": 0.4
     },
