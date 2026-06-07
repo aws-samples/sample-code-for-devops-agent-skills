@@ -52,7 +52,13 @@
     meta.className = "skill-meta";
     var author = document.createElement("span");
     author.className = "skill-author";
-    author.textContent = "by " + skill.author;
+    var authorLink = document.createElement("a");
+    authorLink.href = "https://github.com/" + encodeURIComponent(skill.author);
+    authorLink.target = "_blank";
+    authorLink.rel = "noopener";
+    authorLink.textContent = skill.author;
+    author.textContent = "by ";
+    author.appendChild(authorLink);
     meta.appendChild(author);
     card.appendChild(meta);
 
