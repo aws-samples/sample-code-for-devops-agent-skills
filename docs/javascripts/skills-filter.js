@@ -196,13 +196,42 @@
 
   // Initialize
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initSkillCatalog);
+    document.addEventListener("DOMContentLoaded", function () {
+      initSkillCatalog();
+      fixRepoLink();
+    });
   } else {
     initSkillCatalog();
+    fixRepoLink();
   }
 
   // Material instant navigation
   if (typeof document$ !== "undefined") {
-    document$.subscribe(function () { initSkillCatalog(); });
+    document$.subscribe(function () {
+      initSkillCatalog();
+      fixRepoLink();
+    });
+  }
+
+  function fixRepoLink() {
+    var source = document.querySelector(".md-source");
+    if (source) {
+      source.setAttribute("target", "_blank");
+      source.setAttribute("rel", "noopener");
+    }
+    // Make all external links open in a new tab
+    var siteHost = window.location.hostname;
+    document.querySelectorAll("a[href]").forEach(function (link) {
+      var href = link.getAttribute("href");
+      if (href && href.startsWith("http")) {
+        try {
+          var linkHost = new URL(href).hostname;
+          if (linkHost !== siteHost) {
+            link.setAttribute("target", "_blank");
+            link.setAttribute("rel", "noopener");
+          }
+        } catch (e) {}
+      }
+    });
   }
 })();
