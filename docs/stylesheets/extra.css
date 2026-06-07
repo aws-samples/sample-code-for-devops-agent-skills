@@ -219,6 +219,11 @@
   color: #ff9900;
 }
 
+.tag-domain {
+  background: rgba(129, 199, 132, 0.15);
+  color: #81c784;
+}
+
 [data-md-color-scheme="default"] .tag-agent {
   background: rgba(25, 118, 210, 0.1);
   color: #1565c0;
@@ -227,6 +232,11 @@
 [data-md-color-scheme="default"] .tag-service {
   background: rgba(255, 153, 0, 0.1);
   color: #e65100;
+}
+
+[data-md-color-scheme="default"] .tag-domain {
+  background: rgba(56, 142, 60, 0.1);
+  color: #2e7d32;
 }
 
 .group-heading {

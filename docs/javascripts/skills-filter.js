@@ -60,7 +60,9 @@
     var tagsDiv = document.createElement("div");
     tagsDiv.className = "skill-tags";
     Object.keys(skill.dimensions).forEach(function (dimKey) {
-      var tagClass = dimKey === "aws-services" ? "tag-service" : "tag-agent";
+      var tagClass = "tag-agent";
+      if (dimKey === "aws-services") tagClass = "tag-service";
+      else if (dimKey === "technical-domains") tagClass = "tag-domain";
       skill.dimensions[dimKey].forEach(function (val) {
         tagsDiv.appendChild(createTag(val, tagClass));
       });
