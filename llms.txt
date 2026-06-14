@@ -17,6 +17,7 @@ Skills can be used with these AWS DevOps Agent types:
 - [Support Cases Skill](skills/support-cases/SKILL.md): Searches and analyzes AWS Support cases to find historical incidents with similar symptoms, proven remediations, and recurring patterns
 - [EKS Operation Review Skill](skills/eks-operation-review/SKILL.md): Performs comprehensive Amazon EKS operational reviews aligned with the AWS EKS Best Practices Guide covering security, reliability, networking, and scalability
 - [RDS Operation Review Skill](skills/rds-operation-review/SKILL.md): Performs comprehensive Amazon RDS and Aurora operational reviews aligned with the AWS Well-Architected Framework covering security, reliability, performance, cost optimization, and backups
+- [CRM Production Investigation Guidelines Skill](skills/crm-production-investigation-guidelines/SKILL.md): Sample skill demonstrating how to write production investigation guidelines for the Incident Triage agent type, showing application-specific architecture, incident isolation rules, and structured investigation procedures
 
 ## Key Concepts
 

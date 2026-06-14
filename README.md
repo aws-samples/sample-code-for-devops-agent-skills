@@ -40,6 +40,7 @@ Skills enable DevOps Agent to:
 | [support-cases](skills/support-cases/) | Searches and analyzes AWS Support cases to find historical incidents with similar symptoms, proven remediations, and recurring patterns | Chat tasks, Incident RCA | [udid-aws](https://github.com/udid-aws) | [README](skills/support-cases/README.md) |
 | [eks-operation-review](skills/eks-operation-review/) | Performs comprehensive Amazon EKS operational reviews aligned with the AWS EKS Best Practices Guide covering security, reliability, networking, and scalability | Chat tasks, Prevention | [yakiratz-aws](https://github.com/yakiratz-aws) | [README](skills/eks-operation-review/README.md) |
 | [rds-operation-review](skills/rds-operation-review/) | Performs comprehensive Amazon RDS operational reviews | Chat tasks, Prevention | [yakiratz-aws](https://github.com/yakiratz-aws) | [README](skills/rds-operation-review/README.md) |
+| [crm-production-investigation-guidelines](skills/crm-production-investigation-guidelines/) | **Sample skill** demonstrating how to write investigation guidelines for the Incident Triage agent type using a fictional CRM application | Incident Triage | [jossaiaws](https://github.com/jossaiaws) | [README](skills/crm-production-investigation-guidelines/README.md) |
 
 ## Getting Started
 
