@@ -43,6 +43,7 @@ Skills enable DevOps Agent to:
 | [crm-production-investigation-guidelines](skills/crm-production-investigation-guidelines/) | **Sample skill** demonstrating how to write investigation guidelines for the Incident Triage agent type using a fictional CRM application | Incident Triage | [jossaiaws](https://github.com/jossaiaws) | [README](skills/crm-production-investigation-guidelines/README.md) |
 | [skip-scheduled-maintenance](skills/skip-scheduled-maintenance/) | **Sample skill** demonstrating how to skip low-priority incidents during a scheduled maintenance window for the Incident Triage agent type | Incident Triage | [dgorin6](https://github.com/dgorin6) | [README](skills/skip-scheduled-maintenance/README.md) |
 | [enrich-with-aws-security-agent](skills/enrich-with-aws-security-agent/) | Queries AWS Security Agent CloudWatch logs to retrieve code-level security findings (file, line number, vulnerability type) during incident investigations with potential security root causes | Chat tasks, Incident RCA | [yakiratz-aws](https://github.com/yakiratz-aws) | [README](skills/enrich-with-aws-security-agent/README.md) |
+| [investigation-cost-guardrail](skills/investigation-cost-guardrail/) | Estimates the AWS API cost of an incident investigation before any query runs, shows a per-step cost plan, and cancels if the estimate exceeds a configurable threshold | Incident RCA | [inesttia](https://github.com/inesttia) | [README](skills/investigation-cost-guardrail/README.md) |
 
 ## Getting Started
 

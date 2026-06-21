@@ -1,7 +1,5 @@
 # Investigation Cost Guardrail
 
-![Investigation Cost Guardrail Workflow](assets/devops-agent.drawio.png)
-
 A pre-investigation cost estimation skill for AWS DevOps Agent. It queries the actual data volume an investigation would scan, calculates the dollar cost **before** any query runs, and cancels if the cost exceeds a configurable threshold. It always guides the user on how to reduce scope and cost.
 
 ## ⚠️ Disclaimer
@@ -176,6 +174,3 @@ The default `$10` threshold lets investigations proceed automatically when the e
 
 Ines Attia, Technical Account Manager, AWS Enterprise Support
 
-## License
-
-This project is licensed under the MIT-0 License. See the [LICENSE](LICENSE) file for details.
