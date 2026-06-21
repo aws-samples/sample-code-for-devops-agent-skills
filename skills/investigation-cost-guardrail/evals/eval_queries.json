@@ -1,0 +1,52 @@
+[
+  {
+    "query": "What's the weather like today?",
+    "should_trigger": false,
+    "reason": "Completely unrelated to investigation, debugging, or troubleshooting"
+  },
+  {
+    "query": "Create a new S3 bucket called my-data-bucket",
+    "should_trigger": false,
+    "reason": "Resource creation task, not an investigation"
+  },
+  {
+    "query": "Deploy my CDK stack to production",
+    "should_trigger": false,
+    "reason": "Deployment task, not troubleshooting"
+  },
+  {
+    "query": "Generate a Well-Architected review for my workload",
+    "should_trigger": false,
+    "reason": "Assessment/review task, not incident investigation"
+  },
+  {
+    "query": "How much does an m5.xlarge cost per hour?",
+    "should_trigger": false,
+    "reason": "Pricing question, not incident investigation"
+  },
+  {
+    "query": "What EC2 instances are running in us-east-1?",
+    "should_trigger": false,
+    "reason": "Inventory query, not troubleshooting or debugging"
+  },
+  {
+    "query": "Scale my ECS service to 10 tasks",
+    "should_trigger": false,
+    "reason": "Scaling action, not investigating a problem"
+  },
+  {
+    "query": "How do I enable GuardDuty in my account?",
+    "should_trigger": false,
+    "reason": "Setup/enablement question, not incident response"
+  },
+  {
+    "query": "Generate a cost report for last month broken down by service",
+    "should_trigger": false,
+    "reason": "Reporting task, not debugging or incident response"
+  },
+  {
+    "query": "What are the best practices for tagging AWS resources?",
+    "should_trigger": false,
+    "reason": "Best practices question, not troubleshooting"
+  }
+]
