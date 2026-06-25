@@ -44,6 +44,7 @@ Skills enable DevOps Agent to:
 | [skip-scheduled-maintenance](skills/skip-scheduled-maintenance/) | **Sample skill** demonstrating how to skip low-priority incidents during a scheduled maintenance window for the Incident Triage agent type | Incident Triage | [dgorin6](https://github.com/dgorin6) | [README](skills/skip-scheduled-maintenance/README.md) |
 | [enrich-with-aws-security-agent](skills/enrich-with-aws-security-agent/) | Queries AWS Security Agent CloudWatch logs to retrieve code-level security findings (file, line number, vulnerability type) during incident investigations with potential security root causes | Chat tasks, Incident RCA | [yakiratz-aws](https://github.com/yakiratz-aws) | [README](skills/enrich-with-aws-security-agent/README.md) |
 | [investigation-cost-guardrail](skills/investigation-cost-guardrail/) | Estimates the AWS API cost of an incident investigation before any query runs, shows a per-step cost plan, and cancels if the estimate exceeds a configurable threshold | Incident RCA | [inesttia](https://github.com/inesttia) | [README](skills/investigation-cost-guardrail/README.md) |
+| [service-quota-check](skills/service-quota-check/) | Checks AWS service quota utilization during investigations and before provisioning resources, flags quotas at 85%+ utilization, and requests increases via the Service Quotas API or recommends support cases | Chat tasks, Incident RCA | [yuriypr](https://github.com/yuriypr) | [README](skills/service-quota-check/README.md) |
 
 ## Getting Started
 
