@@ -20,6 +20,7 @@ Skills can be used with these AWS DevOps Agent types:
 - [CRM Production Investigation Guidelines Skill](skills/crm-production-investigation-guidelines/SKILL.md): Sample skill demonstrating how to write production investigation guidelines for the Incident Triage agent type, showing application-specific architecture, incident isolation rules, and structured investigation procedures
 - [Skip Scheduled Maintenance Skill](skills/skip-scheduled-maintenance/SKILL.md): Sample skill demonstrating how to skip low-priority incidents during a scheduled maintenance window, filtering MEDIUM and LOW severity alarms while preserving escalation for HIGH and CRITICAL incidents
 - [Enrich with AWS Security Agent Skill](skills/enrich-with-aws-security-agent/SKILL.md): Queries AWS Security Agent CloudWatch logs to retrieve code-level security findings (file, line number, vulnerability type) during incident investigations with potential security root causes
+- [Service Quota Check Skill](skills/service-quota-check/SKILL.md): Checks AWS service quota utilization during investigations and before provisioning resources, flags quotas at 85%+ utilization, and requests increases via the Service Quotas API or recommends support cases
 
 ## Key Concepts
 
